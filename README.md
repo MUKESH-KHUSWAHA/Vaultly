@@ -16,15 +16,7 @@
   
 </div>
 
----
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432" alt="Vaultly Dashboard" width="100%"/>
-</div>
-
----
 
 ## ✨ Key Features
 
