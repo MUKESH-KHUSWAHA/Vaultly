@@ -7,8 +7,81 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Vaultly | AI Personal Finance Platform",
-  description: "Vaultly is an AI-powered personal finance platform that helps users manage accounts, track expenses, analyze spending, scan receipts with AI, and gain financial insights.",
+  metadataBase: new URL("https://vaultly-ecru.vercel.app"),
+  title: {
+    default: "Vaultly | AI-Powered Personal Finance Platform",
+    template: "%s | Vaultly",
+  },
+  description:
+    "Vaultly is a full-stack AI-powered personal finance platform that helps users track income, expenses, budgets, analyze spending, and scan receipts using Google Gemini AI.",
+  keywords: [
+    "AI Finance",
+    "Expense Tracker",
+    "Budget Planner",
+    "Personal Finance",
+    "Money Management",
+    "Financial Dashboard",
+    "Receipt Scanner",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "PostgreSQL",
+    "Prisma",
+    "Google Gemini",
+    "AI-powered finance",
+    "Budget tracking",
+    "Income tracker",
+    "Spending analysis",
+    "Financial insights",
+    "Multi-account management",
+  ],
+  authors: [{ name: "Mukesh Kumar" }],
+  creator: "Mukesh Kumar",
+  publisher: "Vaultly",
+  applicationName: "Vaultly",
+  category: "Finance",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://vaultly-ecru.vercel.app",
+  },
+  icons: {
+    icon: "/logo-sm.png",
+    apple: "/logo-sm.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://vaultly-ecru.vercel.app",
+    siteName: "Vaultly",
+    title: "Vaultly | AI-Powered Personal Finance Platform",
+    description:
+      "Vaultly is a full-stack AI-powered personal finance platform that helps users track income, expenses, budgets, analyze spending, and scan receipts using Google Gemini AI.",
+    images: [
+      {
+        url: "/banner.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Vaultly AI Personal Finance Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vaultly | AI-Powered Personal Finance Platform",
+    description:
+      "Vaultly is a full-stack AI-powered personal finance platform that helps users track income, expenses, budgets, analyze spending, and scan receipts using Google Gemini AI.",
+    images: ["/banner.jpeg"],
+  },
 };
 
 export default function RootLayout({ children }) {
