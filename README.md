@@ -12,7 +12,7 @@
   
   **AI-powered personal finance platform for intelligent expense tracking, budget management, and financial insights**
   
-  [Live Demo]([https://vaultly.vercel.app](https://vaultly-ecru.vercel.app) · [Report Bug](https://github.com/MUKESH-KHUSWAHA/Vaultly/issues) · [Request Feature](https://github.com/MUKESH-KHUSWAHA/Vaultly/issues)
+  [Live Demo](https://vaultly.vercel.app](https://vaultly-ecru.vercel.app) · [Report Bug](https://github.com/MUKESH-KHUSWAHA/Vaultly/issues) · [Request Feature](https://github.com/MUKESH-KHUSWAHA/Vaultly/issues)
   
 </div>
 
